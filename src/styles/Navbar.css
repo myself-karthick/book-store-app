@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+}
+
+.upperNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(97, 97, 97, 0.5);
+}
+
+.upperRightNav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.lowerNav {
+  padding-inline: 0.5rem;
+  border-bottom: 1px solid rgba(96, 96, 96, 0.5);
+}
